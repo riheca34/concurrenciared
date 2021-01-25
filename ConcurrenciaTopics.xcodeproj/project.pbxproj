@@ -16,6 +16,8 @@
 		B61127F225BBD26C00992247 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61127F125BBD26C00992247 /* Post.swift */; };
 		B61127F625BCFFC900992247 /* APIRequestpr.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61127F525BCFFC900992247 /* APIRequestpr.swift */; };
 		B61127F925BD158C00992247 /* SessionAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61127F825BD158C00992247 /* SessionAPI.swift */; };
+		B611280725BE2EF200992247 /* TopCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B611280625BE2EF200992247 /* TopCell.swift */; };
+		B611282425BE451800992247 /* TopCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B611282325BE451800992247 /* TopCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		B61127F125BBD26C00992247 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		B61127F525BCFFC900992247 /* APIRequestpr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequestpr.swift; sourceTree = "<group>"; };
 		B61127F825BD158C00992247 /* SessionAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionAPI.swift; sourceTree = "<group>"; };
+		B611280625BE2EF200992247 /* TopCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopCell.swift; sourceTree = "<group>"; };
+		B611282325BE451800992247 /* TopCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TopCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,8 @@
 				B61127E725BBC05100992247 /* LaunchScreen.storyboard */,
 				B61127F125BBD26C00992247 /* Post.swift */,
 				B61127EA25BBC05100992247 /* Info.plist */,
+				B611280625BE2EF200992247 /* TopCell.swift */,
+				B611282325BE451800992247 /* TopCell.xib */,
 			);
 			path = ConcurrenciaTopics;
 			sourceTree = "<group>";
@@ -136,6 +142,7 @@
 				B61127E925BBC05100992247 /* LaunchScreen.storyboard in Resources */,
 				B61127E625BBC05100992247 /* Assets.xcassets in Resources */,
 				B61127E425BBC04F00992247 /* Main.storyboard in Resources */,
+				B611282425BE451800992247 /* TopCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,6 +159,7 @@
 				B61127DD25BBC04F00992247 /* AppDelegate.swift in Sources */,
 				B61127DF25BBC04F00992247 /* SceneDelegate.swift in Sources */,
 				B61127F225BBD26C00992247 /* Post.swift in Sources */,
+				B611280725BE2EF200992247 /* TopCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
