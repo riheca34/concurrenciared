@@ -10,14 +10,14 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var TableViewLatestTopic: UITableView!
-    var latestPosts: [LatestPosts]
+    var latestPosts: [TopicList]
     
     override func viewDidLoad() {
         //super.viewDidLoad()
         
         fechPosts { result in
             switch result {
-                case .success(let posts):
+                case .success(let Post):
             }
         }
         // Do any additional setup after loading the view.

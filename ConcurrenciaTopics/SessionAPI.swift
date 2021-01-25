@@ -13,8 +13,8 @@ enum SessionAPIError: Error {
 }
 //Clase que llama al API
 
-final class SessionaPI {
-    lazy var session: URLSession = { () -> <#Result#> in 
+final class SessionAPI {
+    lazy var session: URLSession = {
         let configuration = URLSessionConfiguration.default
         let session = URLSession(configuration: configuration)
         return session
